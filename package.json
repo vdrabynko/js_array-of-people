@@ -1,8 +1,7 @@
 {
-  "name": "js-task-boilerplate",
+  "name": "array-of-people",
   "version": "1.0.0",
-  "description": "js task boilerplate",
-  "main": "src/sum.js",
+  "description": "Array of people",
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js"
