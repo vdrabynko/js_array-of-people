@@ -27,15 +27,15 @@
  * have entered earlier should occur earlier in the array you return. For the
  * example above, the correct answer is [3, 1], as persons 1 and 3 are currently
  * in the room, and 3 entered before 1 (that is, the last (and only) time when 3
- * entered is before the last time when 1 entered). Return empty array if there
- * are no people in the room.
+ * entered is before the last time when 1 entered). Return an empty array if
+ * there are no people in the room.
  *
  * arrayOfPeople([1, 3, 2, 1, 2, 1]) === [3, 1]
- * arrayOfPeople([1,1]) === []
+ * arrayOfPeople([1, 1]) === []
  *
  * @param {number[]} people
  *
- * @return {number}
+ * @return {number[]}
  */
 function arrayOfPeople(people) {
   // write code here
